@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pp.fiveanimationsfromkyotoanimation.MainHaruhiActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/haruhiScrollView"
+        android:layout_margin="10dp"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/picHaruhi"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/picharuhi" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Haruhi Suzumiya"
+                android:id="@+id/haruhiTitle"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:textAppearance="@android:style/TextAppearance.Large" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The story follows the narrator and male protagonist Kyon, a cynical and incredulous student of North High School in Nishinomiya. He is dragged along by his classmate, the eponymous female protagonist Haruhi Suzumiya, an eccentric girl seeking supernatural phenomena and figures such as aliens, time travelers, and espers. With Kyon&apos;s reluctant help, Haruhi establishes a club called the &quot;SOS Brigade&quot;, short for &quot;Spreading Excitement all Over the World with Haruhi Suzumiya Brigade&quot;, to investigate mysterious events. Haruhi later recruits three additional members: the laconic bibliophile Yuki Nagato, the shy and timid Mikuru Asahina, and the extremely friendly transfer student Itsuki Koizumi. These members soon reveal themselves (to Kyon) to be the types of extraordinary characters that Haruhi is seeking. The three additional members have been sent by their various organizations to observe Haruhi who is unaware that she possesses destructive reality warping powers and to prevent these powers from being unleashed. This leaves Kyon the task of maintaining the illusion of a normal life for Haruhi."
+                android:id="@+id/haruhiIntro"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

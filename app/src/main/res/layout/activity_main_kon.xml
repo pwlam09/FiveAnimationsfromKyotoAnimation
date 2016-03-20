@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainKOnActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/KOnScrollView"
+        android:fillViewport="false" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="330dp"
+                android:id="@+id/picKOn"
+                android:src="@drawable/pickon"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="K-On!"
+                android:id="@+id/KOnTitle"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:textAppearance="@android:style/TextAppearance.Large" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In K-On!, four Japanese high school girls join the light music club of Sakuragaoka Girl&apos;s High School to try to save it from being disbanded. However, they are the only members of the club. At first, Yui Hirasawa has no experience playing musical instruments or reading sheet music, but she eventually becomes an excellent guitar player. From then on, Yui, along with bassist Mio Akiyama, drummer Ritsu Tainaka, and keyboardist Tsumugi Kotobuki spend their school days practicing, performing, and hanging out together. The club is overseen by music teacher Sawako Yamanaka who eventually becomes their homeroom teacher as well during their final year of high school. In their second year, the club welcomes another guitarist, underclassman Azusa Nakano. After Azusa joins they gain more structure and begin to practice more.  After their third year, Yui, Mio, Ritsu and Tsumugi graduate and enroll into a university. There they join its light music club alongside three other students: Akira Wada, Ayame Yoshida, and Sachi Hayashi. Meanwhile, Azusa continues to run the high school light music club alongside Yui&apos;s sister Ui, their classmate Jun Suzuki, and new members Sumire Saitō and Nao Okuda."
+                android:id="@+id/KOnIntro"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

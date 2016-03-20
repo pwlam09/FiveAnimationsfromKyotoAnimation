@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pp.fiveanimationsfromkyotoanimation.MainFreeActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/freeScrollView"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="330dp"
+                android:id="@+id/picFree"
+                android:src="@drawable/picfree"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Free!"
+                android:id="@+id/freeTitle"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:textAppearance="@android:style/TextAppearance.Large" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Free! is set in the town of Iwatobi, which is based on the real town of Iwami, Tottori. Iwami has since used Free! to promote tourism to the town.[1][2] The story starts with four boys—Haruka, Makoto, Nagisa and Rin—before they graduate from elementary school. They all participated in a swimming tournament and won, though they parted ways. Years later, Haruka and Makoto reunite with Nagisa when he enrolls in their high school. Not long after, Rin, who was thought to be in Australia, turns up and challenges Haruka to a race and wins. Afterward, Nagisa suggests creating a swimming club and using the school&apos;s run-down outdoor pool. Haruka, Makoto, Nagisa, and later on, Rei, create the Iwatobi High School Swimming Club and work together to make the club a success. Rin&apos;s victory over Haruka means nothing to him as he realizes that Haruka had stopped swimming competitively and wasn&apos;t in top shape. He claims that he cannot get over the fact until Haruka competes against him for real. The members of the revived Iwatobi Swim Club later enter a swimming competition against Rin."
+                android:id="@+id/freeIntro"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

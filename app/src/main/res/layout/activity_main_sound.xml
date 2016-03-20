@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.pp.fiveanimationsfromkyotoanimation.MainSoundActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/soundScrollView"
+        android:fillViewport="false" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="330dp"
+                android:id="@+id/picSound"
+                android:src="@drawable/picsound"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sound! Euphonium"
+                android:id="@+id/soundTitle"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:textAppearance="@android:style/TextAppearance.Large" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Kitauji high school concert band club had at one time participated in national tournaments and was a champion school, but after the club&apos;s adviser changed, they have not been able to even participate in the qualifying tournament. However, thanks to the newly appointed adviser&apos;s strict instruction, the students are steadily improving and build up their strength. As they fight over who plays solos, some students give priority to studying and quit club activities. Finally, the long wished-for day of the contest arrives."
+                android:id="@+id/soundIntro"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
